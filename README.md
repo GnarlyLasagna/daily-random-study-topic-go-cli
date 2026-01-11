@@ -1,0 +1,2 @@
+This is a small randomizer cli project i built using go, i plan to use and update this to build and keep consistent studying habits. Some days i will just read up on the topics and if i see an oppourtunity to create a project specfic to the topic to study more deeply, i will.
+This project will also be updated through functions i see fit or just expanding the existing arrays of topics or adding different array subject groups.
