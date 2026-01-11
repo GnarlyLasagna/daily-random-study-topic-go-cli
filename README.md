@@ -72,7 +72,9 @@ Or, once built:
 
 Each execution returns a single randomized study topic.
 
-Purpose of This Repository
+---
+
+## Purpose of This Repository
 This project is both:
 
 A practical personal utility
@@ -87,7 +89,8 @@ Simplicity
 
 Continuous improvement
 
-Future Ideas
+---
+## Future Ideas
 Weighted topic selection
 
 Daily topic history
