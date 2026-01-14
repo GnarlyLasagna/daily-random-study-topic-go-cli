@@ -14,16 +14,22 @@ func main() {
 		return
 	}
 
-	randomITTopic := r.Intn(len(IT_Topics))
-	fmt.Println("📘 Today's IT study topic:")
-	fmt.Println("→ ", IT_Topics[randomITTopic])
+	fmt.Println("Here are your links and topics for today!")
+	fmt.Println()
 
-	randomTHMLink := r.Intn(len(THM_Links))
-	fmt.Println("📘 Today's THM provided study link:")
-	fmt.Println("→ ", THM_Links[randomTHMLink])
+	randomOSINTLink := r.Intn(len(OSINT_tools_and_Links))
+	fmt.Println(" THM provided study link:")
+	fmt.Println("→ ", OSINT_tools_and_Links[randomOSINTLink])
+	fmt.Println()
 
 	randomCTIFeed := r.Intn(len(CTI_Feeds))
-	fmt.Println("📘 Today's CTI Feed:")
-	fmt.Println("→ ", CTI_Feeds[randomCTIFeed])
+	fmt.Println(" CTI Feed to check out:")
+	fmt.Println("→  ", CTI_Feeds[randomCTIFeed])
+	fmt.Println()
+
+	randomTHM_Module := r.Intn(len(THM_modules))
+	fmt.Println(" THM Module to check out:")
+	fmt.Println("→  ", THM_modules[randomTHM_Module])
+	fmt.Println()
 
 }
