@@ -62,7 +62,7 @@ Go was chosen for this project because it offers:
 ## Usage
 
 ```bash
-go run main.go
+go run .
 ```
 Or, once built:
 
